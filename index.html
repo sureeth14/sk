@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather Forecasting App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <link rel="icon" type="image/x-icon" href="weather.ico">
+</head>
+
+
+
+<body>
+
+
+
+    <div class="container">
+
+        <div>
+            <h1 class="heading"> Weather Manager <img src="um.jpg"></h1>
+            <br>
+            <input type="text" name="" placeholder="Search City" id="city-input">
+            <br>
+            <input type="button" onclick="searchCity()" value="Search">
+        </div><br>
+        <div class="result">
+            <h2 id="city-name"></h2>
+            <br>
+            <div>
+                <h1 id="weather-type"></h1>
+                <div class="field">
+                    <h3>Temp:<span id="temp"></span><span>°F</span></h3>
+                    <h3>Min Temp:<span id="min-temp"></span><span>°F</span></h3>
+                    <h3>Max Temp:<span id="max-temp"></span><span>°F</span></h3>
+                    <h3>Humidity:<span id="hum"></span><span>°F</span></h3>
+                    <h3>Pressure:<span id="press"></span><span>°F</span></h3>
+                    <h3>Wind Speed:<span id="speed"></span><span>°F</span></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
